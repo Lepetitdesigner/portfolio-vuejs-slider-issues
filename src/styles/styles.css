@@ -1,0 +1,272 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	scroll-behavior: smooth;
+}
+img {
+	vertical-align: bottom;
+}
+body {
+  color: #fff;
+  font-family: montserrat;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+i{
+	font-size: 32px;
+}
+nav ul li{
+	display: inline;
+	margin-left: 69px;
+}
+nav ul {
+	margin-top: 56px;
+}
+nav ul li:nth-child(3) {
+	margin-right: 54.5px;
+}
+.ajust {
+	font-style: italic;
+}
+.d-flex {
+	display: flex;
+	justify-content: space-between;
+}
+.d-flex1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.p-r {
+	position: relative;
+}
+.bg {
+	position: absolute;
+	top: 0%;
+	z-index: -200;
+}
+.bg1 {
+	position: absolute;
+	top: 0%;
+	z-index: -200
+}
+.logo img {
+	margin-left: 27px;
+	margin-top: 33px;
+}
+.p-a img {
+	width: 100%;
+}
+.p-a1 {
+	position: absolute;
+	bottom: 50%;
+	left: 3%;
+	color: #EC6F66;
+	font-size: 31px;
+}
+.p-a2 {
+	position: absolute;
+	bottom: 50%;
+	right: 3%;
+	font-size: 31px;
+}
+.d-flex2 {
+	display: flex;
+	justify-content: space-between;
+}
+.t-center {
+	text-align: center;
+}
+h2 {
+	font-weight: bold;
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-family: Raleway;
+	font-style: normal;
+}
+p.copyright {
+	color: #F29F82;
+	font-size: 14px;
+	margin-bottom: 23px;
+	margin-right: 54.5px;
+}
+header {
+	height: 80px;	
+}
+.l-h {
+	line-height: 223%;
+	margin: 90px 0;
+}
+.size1 {
+	width: 1443px;
+	margin-top: 150px;
+	margin-left: 18%;
+}
+.size1 a {
+	padding: 19px;
+	border: 1px solid #EC6F66;
+	color: #ec6f66;
+}
+.size1 a:nth-child(1) {
+	margin-left: 80px;
+	margin-right: 150px;
+}
+.size1 a:nth-child(2) {
+	color: #fff;
+	background-image: linear-gradient(90deg, #EC6F66 -0.03%, #F3A183 99.97%);
+	border:none;
+}
+.size2 {
+	width: 1458px;
+	margin-left: 16.5%;
+	margin-top: 3.5%;
+}
+.size2 img {
+	display: inherit;
+}
+.size2 img:nth-child(2) {
+	margin: 23px 0;
+}
+.ajust1 {
+	margin-top: 166px;
+}
+footer ul li , footer a {
+	color: #EC6F66;
+}
+footer li {
+	margin-bottom: 21px;
+}
+footer li.language:nth-child(4) {
+	margin-left: 11px;
+	font-size: 18px;
+	font-weight: bold;
+}
+footer ul.reseau {
+	margin-left: 21px;
+}
+.cercle li {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #F3A082;
+	display: inline-block;
+	margin-right: 23px;
+}
+.cercle li:nth-child(1){
+	margin-left: 180px;
+}
+.ajust2 {
+	margin-top: 173px;
+	width: 783px;
+	line-height: 180%;
+}
+.ajust3 {
+	margin: 75px 0;
+}
+span {
+	color: #F1957C;
+}
+.ajust4 {
+	margin:79px 0 92px 0;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.size3 {
+	width: 1661px;
+	margin-left: 135px;
+}
+/*.h-100 {
+	height: 100vh;
+}
+*/
+.size3 h4 {
+	color: #F1957C;
+}
+.d-flex3 {
+	display: flex;
+	justify-content: flex-start;
+
+}
+.d-flex3 p {
+	color: #EC6F66;
+	padding-left: 8px;
+}
+.espace {
+	margin: 110px 0;
+}
+.espace1 {
+	margin-left: 132px;
+}
+.ml {
+	margin-right: 124px;
+}
+h4 {
+	margin-bottom: 84px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.size4 {
+	width: 1510px;
+	margin-left: 243px;
+}
+.size4 p {
+	margin-bottom: 58px;
+}
+.fourth {
+	margin-bottom: 144px;
+	margin-top: 68px;
+}
+.orange {
+	color: #EC6F66;
+}
+.blanc {
+	fill: #fff;
+}
